@@ -49,14 +49,19 @@ To run Bingo Chat locally, follow these steps:
 
 3. Set up the environment variables (refer to `.env.example`):
 
-   ```bash
-   cp .env.example .env
-   ```
+  et up the environment variables by creating a .env file at the root of your project and add the following content:
+
+bash
+copy code
+PORT=3000
+JWT_KEY="(*^*(&(*)^(&*^*&^@()&@!LNASLBKJASBN!123123123@#@@#)))"
+ORIGIN="http://localhost:5173"
+DATABASE_URL="mongodb://localhost:27017/k-chat-app"
 
 4. Start the application:
 
    ```bash
-   npm start
+npm run dev
    ```
 
 5. The application should now be running at `http://localhost:3000` (or the port specified in `.env`).
