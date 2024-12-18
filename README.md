@@ -1,15 +1,15 @@
 # Bingo Chat
 
-Bingo Chat is an interactive web application that combines the fun of Bingo with a live chat feature. Players can participate in real-time Bingo games while engaging in conversations, making it an entertaining way to play and socialize simultaneously. 
+ Developed a real-time chat application using Socket.io, enabling seamless user interaction and 
+messaging capabilities. 
+• Created a scalable architecture with MongoDB for efficient data storage, complemented by a secure 
+Node.js and Express backend for communication and authentication. 
+• Designed an intuitive, responsive UI with React, enhancing the overall user experience while gaining 
+full-stack development expertise. 
 
-## Features
 
-- **Live Bingo Game:** Players can play Bingo in real-time with automatic number generation and caller voice.
-- **Chat Feature:** A live chat window allows players to interact with each other during the game.
-- **Multiplayer Mode:** Join rooms with your friends or random players for a multiplayer experience.
-- **Customizable Bingo Cards:** Users can choose from a variety of Bingo card designs and themes.
-- **Responsive UI:** Fully responsive design to ensure the game is playable on both desktop and mobile devices.
-- **User Authentication:** Players can sign in, create accounts, and track their game history.
+
+
 ## Working Demo Video (Link):
 https://www.linkedin.com/posts/kunal-sonawane-72a013256_mern-socketio-webdevelopment-activity-7243552601147858945-PMD8?utm_source=share&utm_medium=member_android
 
@@ -30,7 +30,7 @@ To run Bingo Chat locally, follow these steps:
 ### Prerequisites
 
 - Node.js (v14 or later)
-- npm or yarn (for package management)
+- npm  (for package management)
 
 ### Steps
 
@@ -44,7 +44,17 @@ To run Bingo Chat locally, follow these steps:
 2. Install dependencies:
 
    ```bash
-   npm install
+   1) open terminal
+   2) cd server
+     npm install
+
+
+   3)open new terminal
+   4) cd client
+     npm install
+   
+   
+   
    ```
 
 3. Set up the environment variables (refer to `.env.example`):
@@ -52,16 +62,24 @@ To run Bingo Chat locally, follow these steps:
   et up the environment variables by creating a .env file at the root of your project and add the following content:
 
 bash
-copy code
+in server .env file
+copy code:
+
 PORT=3000
 JWT_KEY="(*^*(&(*)^(&*^*&^@()&@!LNASLBKJASBN!123123123@#@@#)))"
 ORIGIN="http://localhost:5173"
 DATABASE_URL="mongodb://localhost:27017/k-chat-app"
 
+in client .env file
+copy code:
+
+VITE_SERVER_URL ="http://localhost:3000"
+
 4. Start the application:
 
    ```bash
-npm run dev
+in terminal 1( server) '-- npm run dev
+in terminal 2( client) '-- npm run dev
    ```
 
 5. The application should now be running at `http://localhost:3000` (or the port specified in `.env`).
@@ -71,22 +89,8 @@ npm run dev
 Once the app is running, you can:
 
 1. Sign in or create a new account.
-2. Join an existing room or create a new Bingo game.
-3. Participate in the game while chatting with other players.
-
-## Contributing
-
-We welcome contributions to Bingo Chat! If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to your fork (`git push origin feature-name`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+2. Join search for names  or create a new Chat.
+start chatting
 
 ## Acknowledgments
 
