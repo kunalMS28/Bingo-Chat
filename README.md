@@ -10,7 +10,8 @@ Bingo Chat is an interactive web application that combines the fun of Bingo with
 - **Customizable Bingo Cards:** Users can choose from a variety of Bingo card designs and themes.
 - **Responsive UI:** Fully responsive design to ensure the game is playable on both desktop and mobile devices.
 - **User Authentication:** Players can sign in, create accounts, and track their game history.
-## Working Demo Video (Link): https://www.linkedin.com/posts/kunal-sonawane-72a013256_mern-socketio-webdevelopment-activity-7243552601147858945-PMD8?utm_source=share&utm_medium=member_android
+## Working Demo Video (Link):
+https://www.linkedin.com/posts/kunal-sonawane-72a013256_mern-socketio-webdevelopment-activity-7243552601147858945-PMD8?utm_source=share&utm_medium=member_android
 
 
 
@@ -44,8 +45,6 @@ To run Bingo Chat locally, follow these steps:
 
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. Set up the environment variables (refer to `.env.example`):
@@ -58,8 +57,6 @@ To run Bingo Chat locally, follow these steps:
 
    ```bash
    npm start
-   # or
-   yarn start
    ```
 
 5. The application should now be running at `http://localhost:3000` (or the port specified in `.env`).
