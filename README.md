@@ -10,10 +10,9 @@ Bingo Chat is an interactive web application that combines the fun of Bingo with
 - **Customizable Bingo Cards:** Users can choose from a variety of Bingo card designs and themes.
 - **Responsive UI:** Fully responsive design to ensure the game is playable on both desktop and mobile devices.
 - **User Authentication:** Players can sign in, create accounts, and track their game history.
+## Working Demo Video (Link): https://www.linkedin.com/posts/kunal-sonawane-72a013256_mern-socketio-webdevelopment-activity-7243552601147858945-PMD8?utm_source=share&utm_medium=member_android
 
-## Demo
 
-[Link to the demo (if applicable)]  
 
 ## Technologies Used
 
